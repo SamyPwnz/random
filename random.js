@@ -5,17 +5,21 @@ var namespace = "http://www.w3.org/2000/svg"
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
- makeCircle(100,50,25,"green",0.90)  
+ makeCircle(100,50,25,"orange",0.90) 
+ makeCircle(85,45,5,"red",0.90)
+ makeCircle(110,45,5,"red",0.90)
+ makeCircle()
+ makeCircle()
 }
 // Fill in this function that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
-makeCircle(50,50,25,"blue",0.90)
+
 }
 
 
-// Fill in this function so that it draws something using SVG shapes!
+// Fill in this function so that it draws something using SVG shapes! 
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
