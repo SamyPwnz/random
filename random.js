@@ -6,16 +6,14 @@ var namespace = "http://www.w3.org/2000/svg"
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
  makeCircle(100,50,25,"orange",0.90) 
- makeCircle(85,45,5,"red",0.90)
- makeCircle(110,45,5,"red",0.90)
- makeCircle()
- makeCircle()
+ makeImage("https://img0.etsystatic.com/023/0/6471925/il_570xN.483099132_1h84.jpg",87,50,34,70,1)
+ makeRect(150,50,50,50,"blue",0.90)
 }
 // Fill in this function that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
-
+makeCircle(100,50,25,"blue",0.90)
 }
 
 
@@ -23,7 +21,7 @@ function createSecondScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
-    
+makeCircle(100,50,25,"red",0.90)    
 }
 
 
