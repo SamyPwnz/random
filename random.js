@@ -30,8 +30,17 @@ makeCircle(100,50,25,"red",0.90)
 // FILL IN THIS FUNCTION!
 // This function is called whenever you press the "Go!" button.
 function createRandomScene() {
-    // Generate a random number between 0 and 1, and store it in a variable.
+    var mynumber = Math.random()
+    if (mynumber < 0.33){
     createFirstScene()
+    } else if(mynumber < 0.67){
+    createSecondScene()
+    }else{
+    createThirdScene()
+    }
+}
+    // Generate a random number between 0 and 1, and store it in a variable.
+    
     // If the number is less than 0.33, call the function to create your first scene.
     
     
