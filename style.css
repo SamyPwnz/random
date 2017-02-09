@@ -3,8 +3,13 @@
 }
 
 h1 {
-    text-align: center;}
-body{
-    background-image:url(http://vignette4.wikia.nocookie.net/spongebob/images/6/67/The_Krusty_Krab_in_Season_8.png/revision/latest?cb=20141130011345)
+    text-align: center;
+    font-family: 'Barrio', cursive;
+    color: darkorange;
 }
+
+body{
+  background-image:url(http://vignette4.wikia.nocookie.net/spongebob/images/6/67/The_Krusty_Krab_in_Season_8.png/revision/latest?cb=20141130011345)
+}
+
 

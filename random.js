@@ -5,23 +5,30 @@ var namespace = "http://www.w3.org/2000/svg"
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
- makeCircle(100,50,25,"orange",0.90) 
+    makeImage("http://pm1.narvii.com/6088/a18de3eede1508aca96952475ddf8f434c395422_hq.jpg",0,0,250,150,1.0)
+ makeCircle(100,50,25,"orange",0.90)
+ makeRect(10,100,200,20,"green",0.90)
  makeImage("https://img0.etsystatic.com/023/0/6471925/il_570xN.483099132_1h84.jpg",87,50,34,70,1)
- makeRect(150,50,50,50,"blue",0.90)
 }
 // Fill in this function that it draws something using SVG shapes!
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
-makeCircle(100,50,25,"blue",0.90)
+     makeImage("http://vignette3.wikia.nocookie.net/spongebob/images/1/15/BikiniBottomHD.jpg/revision/latest?cb=20160625052753",0,0,250,150,1.0)
+makeRect(60,50,25,50,"blue",0.90)
+makeImage("https://i.redd.it/9b21h63z9nzx.jpg",10,50,34,70,1)
+makeImage("http://img2.wikia.nocookie.net/__cb13/sonicthehedgehogita/it/images/5/50/Wiki-background",10,10,1200,200)
+
 }
+
 
 
 // Fill in this function so that it draws something using SVG shapes! 
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
-makeCircle(100,50,25,"red",0.90)    
+     makeImage("http://wallpapercave.com/wp/vWTTP6j.jpg",0,0,250,150,1.0)
+makeImage("http://i1.kym-cdn.com/photos/images/facebook/000/815/966/fd1.png",10 ,50 ,34 ,70 ,1)
 }
 
 
@@ -31,9 +38,9 @@ makeCircle(100,50,25,"red",0.90)
 // This function is called whenever you press the "Go!" button.
 function createRandomScene() {
     var mynumber = Math.random()
-    if (mynumber < 0.33){
+    if(mynumber<0.33){
     createFirstScene()
-    } else if(mynumber < 0.67){
+    } else if(mynumber< 0.67){
     createSecondScene()
     }else{
     createThirdScene()
@@ -53,7 +60,7 @@ function createRandomScene() {
     
     
     
-}
+
 
 
 
