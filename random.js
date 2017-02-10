@@ -30,7 +30,7 @@ function createThirdScene() {
      makeImage("http://wallpapercave.com/wp/vWTTP6j.jpg",0,0,250,150,1.0)
 makeImage("http://i1.kym-cdn.com/photos/images/facebook/000/815/966/fd1.png",80 ,40 ,34 ,70 ,1)
 makeRect(30,10,60,30,"orange",0.90)
-makeCircle(40,40,30,20,"green",0.90)
+makeCircle(40,40,30,"blue",0.90)
 }
 
 
